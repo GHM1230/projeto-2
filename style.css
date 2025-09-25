@@ -29,7 +29,7 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: #000000;
+  background-color: #31593c;
 }
 #banner img{
     width: 100%;
@@ -39,5 +39,17 @@ ul li a:hover {
 border-radius: 50%;
 height: 200px;
 width: 200px;
+margin-left: 100px;
+position: relative;
+left: 150px;
 
 }
+#circulos a:hover {
+  filter: grayscale(100%); /* Converte para escala de cinza total */
+
+}
+
+p{
+  text-align: center;
+}
+
