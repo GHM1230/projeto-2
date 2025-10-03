@@ -3,7 +3,7 @@
     padding: 0;
 box-sizing: border-box;
 }
-
+    
 h1 {
   text-align: center;
   font-family:Arial, Helvetica, sans-serif;
@@ -24,6 +24,7 @@ width: 200px;
 margin-left: 100px;
 position: relative;
 left: 150px;
+top: 450px;
 
 }
 #circulos a:hover {
@@ -34,13 +35,14 @@ left: 150px;
 p{
   text-align: center;
   height: 60px;
-
+ color: white;
 }
  ol li {
  text-align: center;
  }
  #textos{
-  font-size: 25px}
+  font-size: 25px
+}
 
   h2 {
     text-align: center;
@@ -48,4 +50,22 @@ p{
     background-color: red;
     color: white;
   }
- 
+  
+
+body {
+  background-image: url(raivel\ farma.jpg);
+height: max-content;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+#remedios img {
+  border-radius: 50%;
+  height: 200px;
+width: 200px;
+margin-left: 50px;
+position: relative;
+left: 50px;
+top: 500px;
+
+}
